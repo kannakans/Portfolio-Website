@@ -13,7 +13,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             href='/'
             className='text-2xl font-bold text-blue-500 cursor-pointer '
           >
-            CodeWave
+            Kannan
           </a>
           <ul className='hidden md:flex gap-10 text-lg text-slate-800 dark:text-gray-200'>
             <li className='cursor-pointer hover:text-blue-500'>
@@ -44,16 +44,14 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             >
               <BiMenu
                 size={26}
-                className={`${
-                  isOpen ? "hidden" : "block"
-                } text-gray-700 dark:text-gray-300`}
+                className={`${isOpen ? "hidden" : "block"
+                  } text-gray-700 dark:text-gray-300`}
               />
 
               <AiOutlineClose
                 size={26}
-                className={`${
-                  isOpen ? "block" : "hidden"
-                } h-6 w-6 dark:text-gray-400`}
+                className={`${isOpen ? "block" : "hidden"
+                  } h-6 w-6 dark:text-gray-400`}
               />
             </button>
           </div>

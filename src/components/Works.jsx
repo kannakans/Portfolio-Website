@@ -19,12 +19,16 @@ const Works = () => {
             key={index}
             className='w-[350px] h-[350px] cursor-pointer shadow-xl hover:scale-110 ease-in-out duration-300 rounded-md '
           >
-            <img
-              src={p.img}
-              alt={p.name}
-              className='w-full h-[250px] object-cover rounded-md '
-            />
-
+            <a
+              href={p.url}
+              target="__blank" rel="noreferer"
+            >
+              <img
+                src={p.img}
+                alt={p.name}
+                className='w-full h-[250px] object-cover rounded-md '
+              />
+            </a>
             <div className='w-full h-[100px] bg-white dark:bg-[#04133e]'>
               <h4 className='text-2xl text-black dark:text-white font-semibold py-2 px-1 '>
                 {p.title}

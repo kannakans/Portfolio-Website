@@ -4,38 +4,18 @@ import {
   HTML5,
   Javascript,
   Mongodb,
-  Nextjs,
-  Nextjs2,
   Nodejs,
   Python,
   Reactjs,
-  admin,
   food,
-  food1,
-  port1,
-  port2,
-  port3,
-  social,
+  todo1,
+  le_commerce,
+  portfolio,
+  food_ordering,
+  // de_commerce,
 } from "./assets";
 
-export const projectStats = [
-  {
-    name: "Total Projects",
-    value: "200+",
-  },
-  {
-    name: "Website Design",
-    value: "150+",
-  },
-  {
-    name: "Mobile App Design",
-    value: "50",
-  },
-  {
-    name: "Clients worldwide",
-    value: "+86",
-  },
-];
+export const projectStats = [];
 
 export const tools = [
   {
@@ -54,16 +34,12 @@ export const tools = [
     name: "NodeJs",
     icon: Nodejs,
   },
-  {
-    name: "NextJs",
-    icon: Nextjs2,
-  },
 ];
 
 export const skills = [
   {
     name: "ReactJs",
-    value: 98,
+    value: 75,
     icon: Reactjs,
   },
   {
@@ -72,23 +48,18 @@ export const skills = [
     icon: Nodejs,
   },
   {
-    name: "NextJs",
-    value: 97,
-    icon: Nextjs,
-  },
-  {
     name: "MongoDB",
     value: 98,
     icon: Mongodb,
   },
   {
     name: "CSS3",
-    value: 98,
+    value: 90,
     icon: CSS3,
   },
   {
     name: "HTML5",
-    value: 98,
+    value: 90,
     icon: HTML5,
   },
   {
@@ -98,7 +69,7 @@ export const skills = [
   },
   {
     name: "Python",
-    value: 78,
+    value: 75,
     icon: Python,
   },
 ];
@@ -106,52 +77,31 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "Admin Dashboard",
+    title: "To Do App",
     cat: "Web Design",
-    url: "",
-    img: admin,
+    url: "https://github.com/kannakans/React-ToDo-App",
+    img: todo1,
   },
   {
     id: 2,
-    title: "Portfolio Website",
+    title: "Social Media App",
     cat: "Web Design",
-    url: "",
-    img: port1,
+    url: "https://github.com/kannakans/social-media",
+    img: le_commerce,
   },
   {
     id: 3,
     title: "Portfolio Website",
     cat: "Web Design",
-    url: "",
-    img: port2,
+    url: "https://portofolio-website-puce.vercel.app/",
+    img: portfolio,
   },
   {
     id: 4,
-    title: "MTS Website",
+    title: "Food Ordering App",
     cat: "Web Design",
-    url: "",
-    img: port3,
-  },
-  {
-    id: 5,
-    title: "Eat Well Website",
-    cat: "Web Design",
-    url: "",
-    img: food,
-  },
-  {
-    id: 6,
-    title: "Social Media",
-    cat: "Web App",
-    url: "",
-    img: social,
-  },
-  {
-    id: 7,
-    title: "Eat Well App",
-    cat: "Mobile App",
-    url: "",
-    img: food1,
+    url: "https://food-ordering-app-rust-phi.vercel.app/",
+    img: food_ordering,
   },
 ];
 

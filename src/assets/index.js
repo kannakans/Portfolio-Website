@@ -21,5 +21,11 @@ export { default as port1 } from "./work/port1.png";
 export { default as port2 } from "./work/port2.png";
 export { default as port3 } from "./work/port3.png";
 export { default as social } from "./work/social.png";
+export { default as todo1 } from "./work/todo1.png";
+export { default as todo2 } from "./work/todo2.png";
+export { default as le_commerce } from "./work/e-commerce-light-theme.png";
+// export { default as de_commerce } from "./work/e-commerce-dark-theme.png";
+export { default as portfolio } from "./work/portfolio-website.png";
+export { default as food_ordering } from "./work/food-ordering.png";
 
 export { default as Profile } from "./profile.png";

@@ -26,18 +26,22 @@ const Header = () => {
         </div>
 
         <h1 className='text-5xl 2xl:text-7xl font-extrabold text-black dark:text-neutral-100 tracking-wider'>
-          CodeWave
+          Kannan
         </h1>
 
         <p className='text-md text-black dark:text-gray-100 mt-5 2xl:mt-10'>
-          Full-Stack Web Developer with ability to learn and collaborate in
-          rapidly changing environments and compositions.
+          As a seasoned backend developer with over one year of professional experience,
+          I have honed my skills in designing and implementing robust server-side solutions using Nodejs.
+          My expertise extends to backend technologies and frameworks that drive web applications.
+          In addition, I have a solid understanding of the MERN stack, enabling me to contribute to full-stack development projects.
         </p>
 
         <div className='mt-10 flex gap-10'>
-          <button className='bg-orange-700 text-lg text-white font-semibold rounded-md py-3 px-5'>
-            Hire Me
-          </button>
+          <a href="#about">
+            <button className='bg-orange-700 text-lg text-white font-semibold rounded-md py-3 px-5'>
+              Know more
+            </button>
+          </a>
           <a href='#projects'>
             <button className='text-lg text-white fonnt-semibold rounded-md py-3 px-5 bg-black dark:bg-[#224cff10]'>
               Projects
@@ -48,7 +52,7 @@ const Header = () => {
 
       <div className='w-full flex-1 flex justify-center'>
         <div className='w-[300px] h-[290px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px]  border rounded-full border-gray-600 dark:border-gray-200 relative  md:mt-20 lg:mt-0 flex items-center justify-center'>
-          <img
+          {/* <img
             src={Profile}
             className='w-auto h-full absolute -top-5 md:-top-10'
             data-aos='fade-down'
@@ -56,7 +60,7 @@ const Header = () => {
             data-aos-delay='50'
             data-aos-duration='500'
             data-aos-easing='ease-in-out'
-          />
+          /> */}
           <div
             className='relative w-full h-full rounded-full'
             data-aos='fade-up'
